@@ -1,4 +1,5 @@
 @import './style/main.scss';
 
-@import './components/tab/tab.scss',
-        './components/tab/tabFrame.scss';
+@import './components/tab/style/tabTitle.scss',
+        './components/tab/style/tabFrame.scss',
+        './components/tab/style/tabContent.scss';

@@ -1,13 +1,18 @@
-.tab {
+.tab--title {
     width: 50%;
     padding: 5px;
     font-size: 2rem;
+    background-color: #00000020;
     transition: 0.2s;
-    border: 2px #00000000 solid;
     cursor: pointer;
     &:hover {
         background-color: #00000050;
-        border: 2px #000000 solid;
         transition: 0.2s;
+    }
+    &:nth-child(1){
+        border-top-left-radius: 4px;
+    }
+    &:nth-child(2){
+        border-top-right-radius: 4px;
     }
 }
