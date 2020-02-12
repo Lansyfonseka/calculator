@@ -4,6 +4,11 @@ body, div, input, ul, li, span, button {
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    background: linear-gradient(49deg, #8cffff, #f9ccff);
+}
+
 #root {
     margin: auto;
     display: flex;
