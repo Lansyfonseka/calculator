@@ -14,7 +14,11 @@ class Input extends Component{
     }
 
     render(){
-        return <input type='text' value={ this.state.value } onChange={ this.handleChange }/>
+        const { disabled } = this.props;
+        if (disabled)
+            return (<input type='text' value={ this.state.value } onChange={ this.handleChange } disabled='true'/>);
+        else 
+            return (<input type='text' value={ this.state.value } onChange={ this.handleChange }/>)
     }
 }
 

@@ -1,10 +1,13 @@
-import React from 'react'
-import TabTitle from './components/tab/tabTitle.jsx'
+import React, { Fragment } from 'react'
 import TabFrame from './components/tab/tabFrame.jsx';
+import InfoCard from './components/infoCard/infoCard.jsx';
 
 function Main(){
     return (
-        <TabFrame/>
+        <Fragment>
+            <TabFrame/>
+            <InfoCard/>
+        </Fragment>
     )
 }
 

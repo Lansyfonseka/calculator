@@ -3,3 +3,9 @@ body, div, input, ul, li, span, button {
     border: 0;
     padding: 0;
 }
+
+#root {
+    margin: auto;
+    display: flex;
+    max-width: 650px;
+}
