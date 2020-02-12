@@ -16,3 +16,10 @@
         border-top-right-radius: 4px;
     }
 }
+
+.tab--title-active{
+    background-color: blue;
+    &:hover {
+        background-color: blue;
+    }
+}
