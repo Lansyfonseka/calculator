@@ -1,0 +1,27 @@
+.tab--content {
+    display: none;
+    grid-template-columns: 50% 50%;
+    &-item {
+        padding: 10px;
+        font-size: 1.2rem;
+        input, select {
+            margin: 10px;
+            padding: 2px 5px;
+            width: 80%;
+            border: 1px solid #00000000;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            background-color: #bdbdbd;
+            transition: 0.2s;
+            &:hover {
+                border: 1px solid #000000;
+                background-color: #868686;
+                transition: 0.2s;
+            }
+        }
+    }
+}
+
+.active {
+    display: grid;
+}

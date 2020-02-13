@@ -1,0 +1,16 @@
+body, div, input, ul, li, span, button {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(49deg, #8cffff, #f9ccff);
+}
+
+#root {
+    margin: auto;
+    display: flex;
+    max-width: 650px;
+}
